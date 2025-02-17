@@ -1,9 +1,9 @@
 package io.goorm.youtube.service.impl;
 
 
-import io.goorm.youtube.admin.VideoCreateDTO;
-import io.goorm.youtube.admin.VideoMainDTO;
-import io.goorm.youtube.admin.VideoResponseDTO;
+import io.goorm.youtube.dto.VideoCreateDTO;
+import io.goorm.youtube.dto.VideoMainDTO;
+import io.goorm.youtube.dto.VideoResponseDTO;
 import io.goorm.youtube.repository.VideoRepository;
 import io.goorm.youtube.domain.Video;
 import lombok.extern.slf4j.Slf4j;
@@ -15,7 +15,6 @@ import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
 import java.util.List;
-import java.util.Optional;
 
 @Slf4j
 @Service

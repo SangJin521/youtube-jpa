@@ -1,7 +1,6 @@
 package io.goorm.youtube.repository;
 
-import io.goorm.youtube.admin.MemberResponseDTO;
-import io.goorm.youtube.admin.VideoMainDTO;
+import io.goorm.youtube.dto.MemberResponseDTO;
 import io.goorm.youtube.domain.Member;
 import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;

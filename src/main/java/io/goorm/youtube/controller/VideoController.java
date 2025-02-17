@@ -1,15 +1,13 @@
 package io.goorm.youtube.controller;
 
-import io.goorm.youtube.admin.VideoCreateDTO;
-import io.goorm.youtube.admin.VideoMainDTO;
-import io.goorm.youtube.admin.VideoResponseDTO;
+import io.goorm.youtube.dto.VideoCreateDTO;
+import io.goorm.youtube.dto.VideoResponseDTO;
 import io.goorm.youtube.commom.util.FileUploadUtil;
 import io.goorm.youtube.commom.util.SessionUtils;
 import io.goorm.youtube.service.impl.VideoServiceImpl;
 import jakarta.servlet.http.HttpSession;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
-import org.springframework.data.domain.Page;
 import org.springframework.data.domain.Pageable;
 import org.springframework.data.domain.Sort;
 import org.springframework.data.web.PageableDefault;

@@ -8,6 +8,7 @@ import io.goorm.youtube.domain.Video;
 import io.goorm.youtube.repository.case1.VideoSearchCondition;
 import jakarta.persistence.EntityManager;
 import org.junit.jupiter.api.BeforeEach;
+import org.junit.jupiter.api.DisplayName;
 import org.junit.jupiter.api.Test;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.boot.autoconfigure.ImportAutoConfiguration;
@@ -27,7 +28,7 @@ import static org.assertj.core.api.Assertions.assertThat;
         SecurityAutoConfiguration.class,
         SecurityFilterAutoConfiguration.class
 })
-public class VideoRepositoryTest {
+ public class VideoRepositoryTest {
     @Autowired
     private EntityManager entityManager;  // JPA EntityManager 주입
 

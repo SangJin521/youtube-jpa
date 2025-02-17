@@ -1,6 +1,6 @@
 package io.goorm.youtube.controller;
 
-import io.goorm.youtube.admin.MemberUpdateDTO;
+import io.goorm.youtube.dto.MemberUpdateDTO;
 import io.goorm.youtube.commom.util.PasswordUtil;
 import io.goorm.youtube.commom.util.SessionUtils;
 import io.goorm.youtube.domain.Member;

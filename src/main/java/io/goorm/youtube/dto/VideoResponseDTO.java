@@ -1,4 +1,4 @@
-package io.goorm.youtube.admin;
+package io.goorm.youtube.dto;
 
 
 import org.springframework.beans.factory.annotation.Value;

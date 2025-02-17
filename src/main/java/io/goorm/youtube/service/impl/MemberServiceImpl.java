@@ -1,10 +1,8 @@
 package io.goorm.youtube.service.impl;
 
-import io.goorm.youtube.admin.MemberResponseDTO;
-import io.goorm.youtube.admin.MemberUpdateDTO;
-import io.goorm.youtube.admin.VideoMainDTO;
+import io.goorm.youtube.dto.MemberResponseDTO;
+import io.goorm.youtube.dto.MemberUpdateDTO;
 import io.goorm.youtube.commom.util.StringUtils;
-import io.goorm.youtube.domain.Video;
 import io.goorm.youtube.repository.MemberRepository;
 import io.goorm.youtube.domain.Member;
 import lombok.extern.slf4j.Slf4j;
@@ -14,7 +12,6 @@ import org.springframework.data.domain.Pageable;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
 
-import java.util.List;
 import java.util.Optional;
 
 @Slf4j
